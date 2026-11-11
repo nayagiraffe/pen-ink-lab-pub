@@ -1,0 +1,344 @@
+[
+ {
+  "file": "01-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "02-style-.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "03-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "04-style-v3.1-아이폰-하단-바-추천-시필-잉크-만년필-잉입은.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "05-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "06-script-independent-startup-watchdog.-.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "07-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "08-script-v2.1-pen-photos-hotlinked-manu.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "09-script-v2.1-ui-layer-page-titles-draw.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "10-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "11-script-v2.2-private-drive-photos-reco.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "12-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "13-script-v2.3-collection-grouping-브랜드-색.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "14-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "15-script-v2.1-ai-assist-no-api-photo-cl.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "16-script-v2.4-시필-사진-ai-초안-시필-평가에-사진-테-농.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "17-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "18-script-v2.5-시필-노트-사용성-만년필을-고르면-잉입-중-잉.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "19-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "20-script-v2.6-펜-카드-시필-버튼-시필-사진-모아-보기-필터.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "21-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "22-script-v2.7-시필-이력을-카드로-카드를-누르면-상세-시트-.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "23-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "24-script-v3.0-왼쪽-위-pen-ink-lab-로고-새로고침-.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "25-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "26-script-engine-adjustments.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "27-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "29-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "30-script-v3.4-추천-카드에-이-잉크가-들어-있는-만년필-써-.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "31-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "32-script-v3.5-추천-매칭-맨-위에-지금-상태-안내-만년필-선.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "33-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "34-script-v3.6-시필-저장-시-만년필이-비어-있거나-다른-잉크.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "35-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "36-style-v3.7-만년필-카드-버튼-줄을-항상-카드-맨-아래에-.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "37-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "38-script-v3.8-ai에게-물어보기-지금-든-잉크-또는-이-잉크.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "39-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "40-script-v3.9-직접-입력-등록을-사진-등록-바로-아래로-잉크.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "41-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ },
+ {
+  "file": "42-script-v3.10-직접-시필-기록-날짜가-비어-있으면-오늘로-.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "50-script-catalog-data.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "52-script-pil-core.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "54-script-search-register.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "56-script-onboarding.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "58-script-ink-swap.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "60-script-glossary.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "62-style-step5.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "64-script-local-care.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "66-style-local-care.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "68-script-export.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "70-style-export.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "72-script-pwa.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "74-script-ai-assist.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "76-script-photos.js",
+  "kind": "script",
+  "open": "<script>",
+  "close": "</script>"
+ },
+ {
+  "file": "78-style-photos.css",
+  "kind": "style",
+  "open": "<style>",
+  "close": "</style>"
+ },
+ {
+  "file": "43-html.html",
+  "kind": "html",
+  "open": "",
+  "close": ""
+ }
+]

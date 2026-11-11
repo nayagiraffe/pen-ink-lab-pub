@@ -1,0 +1,8 @@
+node_modules/
+.clasp.json
+.clasprc.json
+apps-script/Index.html
+dist/
+.env
+_reference/
+site/

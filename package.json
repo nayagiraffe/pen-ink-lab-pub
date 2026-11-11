@@ -1,0 +1,18 @@
+{
+  "name": "pen-ink-lab-public",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "npm run build && node scripts/serve.mjs",
+    "test": "npm run build && node --test --test-concurrency=1 --test-timeout=200000 tests/engine.test.cjs tests/patches.test.cjs tests/ui.test.cjs tests/sources.test.cjs tests/local.test.cjs tests/export.test.cjs tests/pwa.test.cjs tests/ai.test.cjs tests/photos.test.cjs",
+    "release": "npm test && node scripts/release.mjs",
+    "icons": "node scripts/make-icons.mjs",
+    "golden:update": "npm run build && node tests/golden-gen.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

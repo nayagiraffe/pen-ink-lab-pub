@@ -1,0 +1,8 @@
+
+/* 로컬 저장 보호 배너 */
+#pilBanners{display:grid;gap:10px;margin-bottom:12px}
+#pilBanners:empty{display:none}
+.pil-banner{border:1px solid var(--line);border-radius:14px;padding:12px 14px;background:var(--surface-2,var(--surface));font-size:13.5px;line-height:1.65}
+.pil-banner.warn{background:#fff3d6;border-color:#f0d9a0;color:#6b4300}
+.pil-banner .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.pil-banner .btn{min-height:40px;padding:8px 14px;font-size:13px}

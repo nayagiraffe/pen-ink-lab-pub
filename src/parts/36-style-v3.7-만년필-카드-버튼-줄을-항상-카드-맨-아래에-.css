@@ -1,0 +1,3 @@
+
+/* 만년필 카드: 버튼 줄을 항상 카드 맨 아래에 (같은 줄 카드끼리 높이 맞춤) */
+.pen-card{display:flex;flex-direction:column}.pen-card .pen-body{flex:1 1 auto;display:flex;flex-direction:column}.pen-card .pen-foot{margin-top:auto;padding-top:10px;flex-wrap:wrap;row-gap:6px}

@@ -1,0 +1,25 @@
+
+/* 내보내기 카드 + 인쇄 */
+#exportCard .print-opts{border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:12px 0 4px}
+#exportCard .print-opts legend{font-size:12.5px;color:var(--muted);padding:0 6px}
+#exportCard .print-opts label{display:inline-flex;align-items:center;gap:6px;margin:4px 14px 4px 0;font-size:14px;cursor:pointer}
+#exportMsg{min-height:1.2em}
+#exportMsg[data-k="ok"]{color:var(--ok,#1b7a43)}
+#exportMsg[data-k="bad"]{color:var(--bad,#a12626)}
+#pilPrint{display:none}
+@media print{
+  @page{margin:14mm}
+  body.pil-printing{background:#fff!important}
+  body.pil-printing > *:not(#pilPrint){display:none!important}
+  body.pil-printing #pilPrint{display:block!important;color:#000;font:10.5pt/1.45 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}
+  #pilPrint .pp-head h1{margin:0 0 2pt;font-size:18pt}
+  #pilPrint .pp-head p{margin:0 0 14pt;color:#444}
+  #pilPrint h2{font-size:13pt;margin:16pt 0 6pt;break-after:avoid}
+  #pilPrint h2 small{font-size:9.5pt;font-weight:400;color:#555}
+  #pilPrint table{width:100%;border-collapse:collapse;font-size:9.5pt}
+  #pilPrint th,#pilPrint td{border-bottom:.5pt solid #bbb;padding:3pt 5pt;text-align:left;vertical-align:top;overflow-wrap:break-word;word-break:normal}
+  #pilPrint th{border-bottom:1pt solid #000;background:#eee;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #pilPrint thead{display:table-header-group}
+  #pilPrint tr{break-inside:avoid}
+  #pilPrint .pp-none{color:#666}
+}

@@ -1,0 +1,64 @@
+
+/* 공개판 추가 UI: 검색 자동완성·30초 시작·잉크 교체·용어 풀이 */
+.pil-find{margin:0 0 14px}
+.pil-list{list-style:none;margin:6px 0 0;padding:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}
+.pil-list[hidden]{display:none}
+.pil-list li{display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;border-top:1px solid var(--line);min-height:44px}
+.pil-list li:first-child{border-top:0}
+.pil-list li:hover,.pil-list li.on{background:var(--sunken)}
+.pil-list li.pil-none{cursor:default;color:var(--muted);font-size:12.5px}
+.pil-dot{flex:none;width:18px;height:18px;border-radius:50%;background:var(--c,#999);box-shadow:inset 0 0 0 1px rgba(0,0,0,.12);display:inline-block;vertical-align:-3px}
+.pil-txt{flex:1;min-width:0;overflow-wrap:anywhere}
+.pil-tag{font-style:normal;font-size:11px;padding:2px 8px;border-radius:999px;background:var(--sunken);color:var(--ink-2);white-space:nowrap}
+.pil-tag.warn{background:#fff0d9;color:#7a4a00}
+.pil-tag.add{background:var(--ink);color:var(--surface)}
+.chip-btn.on{background:var(--ink);color:var(--surface)}
+#pilPenMsg .chip-btn{margin:2px 4px 2px 0}
+/* 30초 시작 */
+.pil-start{border:2px solid var(--ink)}
+.pil-start h2{margin-top:0}
+.pil-step{margin:16px 0}
+.pil-step h3{margin:0 0 8px;font-size:15px}
+.pil-chosen{margin-top:8px;padding:10px 12px;border-radius:12px;background:var(--sunken)}
+.pil-manual{margin-top:8px;font-size:13px}
+.pil-manual summary{cursor:pointer;color:var(--muted)}
+.pil-pair{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:10px 0}
+.pil-x2{color:var(--muted)}
+.pil-score{display:flex;align-items:center;gap:14px;margin:12px 0}
+.pil-score b{font-size:44px;line-height:1;letter-spacing:-.02em}
+.pil-score span{font-size:12.5px;color:var(--muted);line-height:1.5}
+.pil-start h4{margin:12px 0 4px;font-size:13px}
+.pil-why,.pil-warn{margin:0;padding-left:20px;font-size:13px;line-height:1.7}
+.pil-warn{color:var(--ink-2)}
+/* 바텀시트 */
+.pil-sheet-bg{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.42);display:flex;align-items:flex-end;justify-content:center}
+.pil-sheet{width:100%;max-width:560px;max-height:86vh;display:flex;flex-direction:column;background:var(--surface);border-radius:20px 20px 0 0;box-shadow:0 -10px 40px rgba(0,0,0,.25)}
+@media(min-width:700px){.pil-sheet-bg{align-items:center}.pil-sheet{border-radius:20px;max-height:80vh}}
+.pil-sheet-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 18px 8px}
+.pil-sheet-head b{font-size:16px;overflow-wrap:anywhere}
+.pil-x{border:0;background:var(--sunken);width:36px;height:36px;border-radius:50%;font-size:20px;line-height:1;cursor:pointer;color:var(--ink)}
+.pil-sheet-body{padding:6px 18px 20px;overflow:auto}
+.pil-intro{margin:0 0 10px;font-size:13px;color:var(--ink-2);line-height:1.6}
+.pil-pick h4{margin:14px 0 6px;font-size:12.5px;color:var(--muted)}
+.pil-row{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:11px 12px;margin:0 0 6px;min-height:46px;cursor:pointer;font:inherit;color:var(--ink)}
+.pil-row:hover,.pil-row:focus-visible{background:var(--sunken)}
+/* 토스트 */
+#pilToast{position:fixed;left:50%;bottom:84px;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:10001;display:flex;align-items:center;gap:12px;max-width:min(92vw,520px);padding:12px 16px;border-radius:14px;background:var(--ink);color:var(--surface);font-size:13px;line-height:1.5;transition:.2s}
+#pilToast.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+#pilToast button{border:0;background:transparent;color:inherit;text-decoration:underline;font:inherit;font-weight:700;cursor:pointer;padding:6px}
+/* ⓘ 툴팁·용어 풀이 */
+.pil-tip{border:0;background:transparent;color:var(--muted);font-size:14px;line-height:1;padding:4px;margin-left:2px;cursor:pointer;border-radius:50%;min-width:28px;min-height:28px;vertical-align:middle}
+.pil-tip:hover,.pil-tip:focus-visible{background:var(--sunken);color:var(--ink)}
+.pil-ex{margin:6px 0 12px}
+.pil-ex svg{display:block;width:100%;max-width:240px;height:auto;border-radius:9px}
+.pil-gloss summary{cursor:pointer}
+.pil-gloss summary h2{display:inline}
+.pil-g{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line)}
+.pil-g .pil-ex{flex:none;width:130px;margin:0}
+.pil-g h4{margin:0 0 4px}.pil-g p{margin:0 0 4px;font-size:13px;line-height:1.65}
+@media(max-width:520px){.pil-g{flex-direction:column}.pil-g .pil-ex{width:100%}}
+/* 서버가 필요한 사진 저장·자동 판독 UI는 이 버전에 없으므로 항상 숨긴다 (AI 앱에 복사·붙여넣기 하는 카드는 보인다) */
+#tAiBtn,#tAiMsg,.tx-file,#tPhotos,label:has(+#tPhotos){display:none!important}
+.ai-note{margin:0;padding:4px 20px 14px;font-size:12.5px;line-height:1.65;color:var(--muted)}
+.ai-tip{display:block;margin-top:6px;font-size:12px;line-height:1.55;color:var(--muted)}
+.ai-msg{white-space:pre-line}
